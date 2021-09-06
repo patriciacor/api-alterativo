@@ -1,0 +1,30 @@
+[
+    { "name":"El conjuro 3: el diablo me obligó a hacerlo",
+    "anio":"2021", 
+    "director": "Michael Chaves",
+    "duracion": "1h 52m",   
+   "genero":" Terror, Suspenso  ",
+   " imagen " : " img / elconjuro.jpg "
+},
+{ "name":"Ruega por nosotros",
+    "anio":"2021", 
+    "director": " Evan Spiliotopoulos",
+    "duracion": "1h 39m",   
+   "genero":" Terror, Sobrenatural  ",
+   " imagen " : " img / ruega.jpg "
+},
+{ "name":"Tom Clancy: Sin remordimientos",
+    "anio":"2021", 
+    "director": " Stefano Sollima",
+    "duracion": "1h 49m",   
+   "genero":" Acción, Suspenso ",
+   " imagen " : " img/sin.jpg "
+},
+{ "name":"Tiburón Blanco",
+    "anio":"2021", 
+    "director": " Martin Wilson",
+    "duracion": "1h 40m",   
+   "genero":"Terror, Aventura ",
+   " imagen " : " img /tiburon.jpg "
+}
+]
