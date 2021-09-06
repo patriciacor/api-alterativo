@@ -1,0 +1,57 @@
+[
+    { "name":  "New Amsterdam",
+        "anio":"2018",
+        "temporadas": "3",
+        "genero":"Drama médico",
+        " imagen " : " img / sexeducation.jpg "
+    },
+    {
+        "name":  "Sex Education",
+        "anio":"2019",
+        "temporadas": "3",
+        "genero":"Drama , Comedia ",
+        " imagen " : " img / newamst.jpg "
+    },
+    {
+        "name":  "The Hundred",
+        "anio":"2014",
+        "temporadas": "7",
+        "genero":"Acción,Ciencia ficción ,Aventura " ,
+        " imagen " : " img / 100.jpg "
+
+    },
+    {
+        "name":  "La maldición de Hill House",
+        "anio":"2018", 
+        "temporadas": "1",   
+       "genero":" Drama, Sobrenatural, Horror ",
+       " imagen " : " img / maldicion.jpg "
+       
+      },
+      {
+        "name":  "Stranger Things",
+        "anio":"2016", 
+        "temporadas": "3",   
+       "genero":" Drama, Misterio, Suspenso, Ciencia Ficción, Acción ",
+       " imagen " : " img / stranger.jpg "
+       
+      },
+      {
+        "name":  "FBI",
+        "anio":"2018", 
+        "temporadas": "3",   
+       "genero":" Crimen",
+       " imagen " : " img / fbi.jpg "
+       
+      },
+      {
+        "name":  "The Equalizer ",
+        "anio":"2021", 
+        "temporadas": "2",   
+       "genero":" Crimen, Acción ",
+       " imagen " : " img / equalizer.jpg "
+       
+      }
+      
+      
+]
