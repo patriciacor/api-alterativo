@@ -1,11 +1,11 @@
 [
     { 
-        "name":"El conjuro 3: el diablo me obligó a hacerlo",
+   "name":"El conjuro 3: el diablo me obligó a hacerlo",
     "anio":"2021", 
     "director": "Michael Chaves",
     "duracion": "1h 52m",   
    "genero":" Terror, Suspenso  ",
-   " imagen " : " img / elconjuro.jpg "
+   "imgSrc":"img/elconjuro.jpg"
 
 },
 {
@@ -14,7 +14,7 @@
     "director": " Evan Spiliotopoulos",
     "duracion": "1h 39m",   
    "genero":" Terror, Sobrenatural  ",
-   " imagen " : " img / ruega.jpg "
+   "imgSrc":"img/ruega.jpg"
 
 },
 {
@@ -23,7 +23,7 @@
     "director": " Stefano Sollima",
     "duracion": "1h 49m",   
    "genero":" Acción, Suspenso ",
-   " imagen " : " img/sin.jpg "
+   "imgSrc":"img/sin.jpg"
 
 },
 { 
@@ -32,7 +32,7 @@
     "director": " Martin Wilson",
     "duracion": "1h 40m",   
    "genero":"Terror, Aventura ",
-   " imagen " : " img /tiburon.jpg "
+   "imgSrc":"img /tiburon.jpg"
 
 }
 

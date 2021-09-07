@@ -8,7 +8,7 @@ function peliculas(array)// funcion con parametro array ya que leera una cadena 
        let peli= array[i];
      
       {            contenido += 
-       `<img src="`+ peli.img + `" alt="`+ peli.director + `" class="img-thumbnail">
+       `<img src="`+ peli.imgSrc + `" alt="`+ peli.director + `" class="img-thumbnail">
     <h3>` + peli.name  + `</h3>   
        <h4>` + peli.anio +  `</h4>
        <h5>` + peli.duracion + " " + peli.genero +  `</h5> 
@@ -18,7 +18,7 @@ function peliculas(array)// funcion con parametro array ya que leera una cadena 
        `
        //le di estilo al salto de lina y encabezados a mi listado para que se vea de buen tamaño y contraste con el fondo 
    }
-   document.getElementById("serie").innerHTML = contenido; 
+   document.getElementById("peli").innerHTML = contenido; 
    // con getElementById llamo al id que coloque dentro de un div en mi pagina html y le digo que su valor , es igual a la lista de contenido 
    //para que se visualice en ella
 }

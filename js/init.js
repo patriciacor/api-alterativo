@@ -17,13 +17,11 @@ var getJSONData = function(url){
     .then(function(response) {
           result.status = 'ok';
           result.data = response;
-          
-          return result;
+           return result;
     })
     .catch(function(error) {
         result.status = 'error';
         result.data = error;
-        
         return result;
     });
   }
