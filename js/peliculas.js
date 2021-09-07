@@ -8,12 +8,15 @@ function peliculas(array)// funcion con parametro array ya que leera una cadena 
        let peli= array[i];
      
       {            contenido += 
-       `<img src="`+ peli.imgSrc + `" alt="`+ peli.director + `" class="img-thumbnail">
-    <h3>` + peli.name  + `</h3>   
-       <h4>` + peli.anio +  `</h4>
-       <h5>` + peli.duracion + " " + peli.genero +  `</h5> 
-           
-              '<hr color = white>'    
+       `
+    <h2>` + "Titulo:" +peli.name  + `</h2>  
+     <p>` + "Director:" + peli.director + `</p> 
+      <p>`+ peli.genero +`</p>
+       <p>` +"Año de Lanzamiento"+ peli.anio +  `</p>
+       <p>` + "Duración:"+ peli.duracion + `</p>
+       <img src="`+ peli.imgSrc + `" alt="`+  `" class="img-thumbnail">
+      '<hr>'     
+      
      
        `
        //le di estilo al salto de lina y encabezados a mi listado para que se vea de buen tamaño y contraste con el fondo 

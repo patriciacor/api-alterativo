@@ -12,9 +12,9 @@
             `<img src="`+ series.imgSrc + `" alt="`+ series.director + `" class="img-thumbnail">
          <h3>` + series.name  + `</h3>   
             <h4>` + series.anio +  `</h4>
-           <h5>` + series.duracion + " " + series.genero +  `</h5> 
+           <h5>` + series.duracion + " " + series.genero+  `</h5> 
                 
-                   '<hr color = white>'    
+                   '<hr>'    
           
             `
         
