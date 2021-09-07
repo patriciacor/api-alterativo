@@ -8,23 +8,16 @@
         let series = array[i];
       
        {           
-            content += `
-            <a href="category-info.html" class="list-group-item list-group-item-action">
-            <div class="row">
-                <div class="col-3">
-                    <img src="` + series.imgSrc + `" alt="` + series.director+ `" class="img-thumbnail">
-                </div>
-                <div class="col">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h4 class="mb-1">`+ series.name +`</h4>
-                        <small class="text-muted">` + series.anio + ` artículos</small>
-                    </div>
-                    <p class="mb-1">` + series.temporadas + `</p>
-                    <p class="mb-1">` + series.genero + `</p>
-                </div>
-            </div>
-        </a>
-        `
+            content += 
+            `<img src="`+ series.imgSrc + `" alt="`+ series.director + `" class="img-thumbnail">
+         <h3>` + series.name  + `</h3>   
+            <h4>` + series.anio +  `</h4>
+           <h5>` + series.duracion + " " + series.genero +  `</h5> 
+                
+                   '<hr color = white>'    
+          
+            `
+        
         //le di estilo al salto de lina y encabezados a mi listado para que se vea de buen tamaño y contraste con el fondo 
     }
     document.getElementById("serie").innerHTML = content; 
