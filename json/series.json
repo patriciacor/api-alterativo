@@ -1,5 +1,6 @@
 [
-    { "name":  "New Amsterdam",
+    { 
+        "name":  "New Amsterdam",
         "anio":"2018",
         "temporadas": "3",
         "genero":"Drama médico",
@@ -52,6 +53,4 @@
        " imagen " : " img / equalizer.jpg "
        
       }
-      
-      
-]
+    ]
