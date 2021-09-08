@@ -1,13 +1,10 @@
+
 img{
-    width: 90px;
-    height: 90px;
-    border-top: 1px;
+    width: 100px;
+    height: 130px;
+  
+
 }
-.col{
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-h4{text-align: center;}
-h5{text-align: center;}
+ .div{
+     text-align: right;
+ }

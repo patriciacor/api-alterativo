@@ -8,22 +8,23 @@
         let series = array[i];
       
        {           
-            content += 
-            `<img src="`+ series.imgSrc + `" alt="`+ series.director + `" class="img-thumbnail">
-         <h3>` + series.name  + `</h3>   
-            <h4>` + series.anio +  `</h4>
-           <h5>` + series.duracion + " " + series.genero+  `</h5> 
-                
-                   '<hr>'    
-          
+            content += `
+            <h2>` + "Titulo:" +series.name  + `</h2>  
+            <p>` + "TEmporadas:" + series.temporadas + `</p> 
+             <p>`+ series.genero +`</p>
+              <p>` +"Año de Lanzamiento:"+ series.anio +  `</p>
+           <img src="`+ series.imgSrc + `" alt="`+  `" class="img-thumbnail">
+             
+             
             `
         
         //le di estilo al salto de lina y encabezados a mi listado para que se vea de buen tamaño y contraste con el fondo 
     }
-    document.getElementById("serie").innerHTML = content; 
+    document.getElementById("serie").innerHTML = content ; 
     // con getElementById llamo al id que coloque dentro de un div en mi pagina html y le digo que su valor , es igual a la lista de contenido 
-    //para que se visualice en ella
+    //para que se visualice en ella 
 }
+
 }
 document.addEventListener("DOMContentLoaded", function (e) {
     getJSONData(series_url).then(function (list) {
