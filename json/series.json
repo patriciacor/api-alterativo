@@ -52,5 +52,13 @@
        "genero":" Crimen, Acción ",
        "imgSrc":"img/equalizer.jpg "
        
+      },
+      {
+        "name":"El juego del calamar",
+        "anio":"2021", 
+        "temporadas": "1",   
+       "genero":"Drama ",
+       "imgSrc":"img/juego.jpg "
+       
       }
     ]

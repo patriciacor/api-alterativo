@@ -8,9 +8,9 @@
         let series = array[i];
       
        {           
-            content += `
-            <h2>` + "Titulo:" +series.name  + `</h2>  
-            <p>` + "TEmporadas:" + series.temporadas + `</p> 
+            content += ` 
+            <h2>`  +series.name  + `</h2>  
+            <p>` + "Temporadas:" + series.temporadas + `</p> 
              <p>`+ series.genero +`</p>
               <p>` +"Año de Lanzamiento:"+ series.anio +  `</p>
            <img src="`+ series.imgSrc + `" alt="`+  `" class="img-thumbnail">

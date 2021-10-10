@@ -34,6 +34,40 @@
    "genero":"Terror, Aventura ",
    "imgSrc":"img/tiburonn.jpg"
 
-}
+},
+{ 
+   "name":"El Escuadrón Suicida",
+  "anio":"2021", 
+  "director": "James Gunn",
+  "duracion": "2h 12m",   
+ "genero":"Acción, Ciencia Ficción",
+ "imgSrc":"img/escuadron.jpg"
 
+},{ 
+   "name":"El bebé jefazo: Negocios de familia",
+  "anio":"2021", 
+  "director": "Tom McCarthy",
+  "duracion": "1h 47m",   
+ "genero":"Comedia, Infantil",
+ "imgSrc":"img/bebe.jpg"
+
+},{ 
+   "name":"Escape Room 2: Mueres por salir",
+  "anio":"2021", 
+  "director": "Adam Robitel",
+  "duracion": "1h 28m",   
+ "genero":" Terror, Suspenso  ",
+ "imgSrc":"img/room.jpg"
+
+},
+
+{ 
+   "name":"Free Guy: tomando el control",
+  "anio":"2021", 
+  "director": "Shawn Levy",
+  "duracion": "1h 55m",   
+ "genero":"Acción,Aventura  ",
+ "imgSrc":"img/room.jpg"
+
+}
 ]
