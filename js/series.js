@@ -9,13 +9,14 @@
       
        {           
             content += ` 
-            <h2>`  +series.name  + `</h2>  
-            <p>` + "Temporadas:" + series.temporadas + `</p> 
-             <p>`+ series.genero +`</p>
-              <p>` +"Año de Lanzamiento:"+ series.anio +  `</p>
-           <img src="`+ series.imgSrc + `" alt="`+  `" class="img-thumbnail">
-             
-             
+<div class="card" style="width: 18rem;">
+  <img src="`+ series.imgSrc + `" alt="`+  `" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">`+series.name+`</h5>
+    <p class="card-text muted">`+series.anio+`</p>
+    <a href="#" class="btn btn-primary">`+series.temporadas+`</a>
+  </div>
+</div>
             `
         
         //le di estilo al salto de lina y encabezados a mi listado para que se vea de buen tamaño y contraste con el fondo 
